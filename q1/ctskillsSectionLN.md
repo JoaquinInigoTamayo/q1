@@ -2,8 +2,8 @@ Annex A
 Computational Thinking Exercise: "Smart School Canteen Queue"
 
 
-Section: 9-Pinatubo                             Score:____________
-C# / Name: #15 / Joaquin Iñigo L. Tamayo        Date: 8/13/2026
+| Section: 9-Pinatubo |                             Score:____________ 
+| C# / Name: #15 / Joaquin Iñigo L. Tamayo |        Date: 8/13/2026 |
 
 Scenario
 The PSHS school canteen is small and often gets crowded during lunch break. Students line up to buy food, but the process is slow because:
