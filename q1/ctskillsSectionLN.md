@@ -39,7 +39,7 @@ For each sub-problem, apply CT skills:
   - Have another station set up with more food variations available.
 
 Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
-3rd sub-problem:
+- 3rd sub-problem:
 1. Start
 2. Enter the amount of servings of food distributed
 3. Enter the amount of servings of food at the start of lunch
