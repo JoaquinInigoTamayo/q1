@@ -1,6 +1,7 @@
 Annex A Computational Thinking Exercise: "Smart School Canteen Queue"
 
 | Section: 9-Pinatubo | Score:____________ | C# / Name: #15 / Joaquin Iñigo L. Tamayo | Date: 8/13/2026 |
+Groupmates: #13 Knoah Kenji D. Padilla, #14 Rafael Akiles Micael D. Rodriguez |
 
 The problem: Finding the highest (Maximum) number from a given list of numbers.
 
