@@ -1,31 +1,24 @@
-# COMPOSITION
-class Nucleus:
-    def __init__(self):
-        print("Nucleus created")
-    def __del__(self):
-        print("Nucleus is gone")
+class Tusoktusok:
+    name = ""
+    sauce = []
+    def __init__(self,name):
+        self.name = name
+    def dip(self,sauce):
+        self.sauce.append(sauce)
+    def eat(self):
+        print("I ate",self.name,"with ",end="")
+        [print(s.name,end=",") for s in self.sauce]
+        print(" and it tastes ",end="")
+        [print(s.taste,end=",") for s in self.sauce]
+        print()
+        
+class Sauce:
+    def __init__(self,name,taste):
+        self.name = name
+        self.taste = taste
+        
+fishball = Tusoktusok("fishball")
+vinegar = Sauce("vinegar", "sour")
 
-class Mitochondria:
-    def __init__(self):
-        print("Mitochondria created")
-    def powerTheCell(self):
-        print("Mitochondria is providing energy")
-    def __del__(self):
-        print("Mitochondria is gone")
-
-class Cell:
-    def __init__(self):
-        print("Cell created")
-        self.nucleus = Nucleus()
-        self.mitochondria = Mitochondria()
-    def exist(self):
-        print("Cell is existing")
-        self.mitochondria.powerTheCell()
-    def __del__(self):
-        del self.nucleus
-        del self.mitochondria
-        print("Cell is gone")
-
-cellAtWork = Cell()
-cellAtWork.exist()
-del cellAtWork
+fishball.dip(vinegar) 
+fishball.eat()
