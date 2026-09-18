@@ -1,5 +1,5 @@
 # Joaquin Iñigo L. Tamayo
-#9 - Pinatubo
+9 - Pinatubo
 
 - [Computational Thinking Exercise (Annex A)](q1/q1_sg2_a1.md)
 - [Computational Thinking Exercise (Annex C)](q1/q1_sg2_a2.md)
